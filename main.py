@@ -1,10 +1,13 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import requests
+from dotenv import load_dotenv
 import os
 
 app = Flask(__name__, template_folder="template")
 CORS(app)
+
+load_dotenv() 
 
 API_KEY = os.getenv('API_KEY')
 if not API_KEY:
