@@ -26,7 +26,7 @@ The Weather Dashboard is a user-friendly application designed to provide real-ti
 
 3. replace API_URL with folllowing in script.py
    ```bash
-      http://127.0.0.1:5000/
+      http://127.0.0.1:8080/
    ``` 
  
 3. **Start Flask Server**
@@ -42,7 +42,7 @@ The Weather Dashboard is a user-friendly application designed to provide real-ti
 2. add all files
 3. in secret write API_KEY=your_openweathermap_api_key
 4. run main.py
-5. my replit deploy url is as following, you will get in similar form
+5. my replit deploy url is as following for reference, you will get in similar form
     ```bash
        https://c6b1ce78-47b5-4158-bbac-6d7a9fb83342-00-364lentosq3f0.sisko.replit.dev/weather
    ```
