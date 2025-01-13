@@ -1,5 +1,3 @@
-# Weather Dashboard
-
 ## Project Overview
 The Weather Dashboard is a user-friendly application designed to provide real-time weather information by city name.
 
@@ -66,6 +64,16 @@ The Weather Dashboard is a user-friendly application designed to provide real-ti
 ### Platform limitation
 1. OpenWeather's free tier limits the number of requests
 2. Limitations for deployment using replit
+
+### User Interface
+![Screenshot from 2025-01-14 01-18-39](https://github.com/user-attachments/assets/7b018960-8a9c-45ac-9566-179f608dc161)
+
+![Screenshot from 2025-01-14 01-18-57](https://github.com/user-attachments/assets/808a6c0c-4fee-4a79-86f5-eb881c05f982)
+
+![Screenshot from 2025-01-14 01-19-08](https://github.com/user-attachments/assets/c10a12e2-1a5c-436e-9e95-9394a232e42c)
+
+
+
 
 
 
