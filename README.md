@@ -25,7 +25,12 @@ The Weather Dashboard is a user-friendly application designed to provide real-ti
 2. **API KEY**
    create .env file and write in it following :
    API_KEY=your_openweathermap_api_key
-   
+
+3. replace API_URL with folllowing in script.py
+   ```bash
+      http://127.0.0.1:5000/
+   ``` 
+ 
 3. **Start Flask Server**
    ```bash
        python3 main.py
