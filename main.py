@@ -7,7 +7,9 @@ app = Flask(__name__, template_folder="template")
 CORS(app)
 
 API_KEY = os.getenv('API_KEY')
-
+if not API_KEY:
+    raise ValueError("API_KEY environment variable is not set. Please set it before running the app.")
+    
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -34,6 +36,6 @@ def get_weather():
         "wind_speed": data["wind"]["speed"]
     })
 
-
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=8080)
+
